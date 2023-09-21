@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+:root {
+    /* cores de fundo e botão: */
+    --cor-primária: #006c72;
+    --cor-secundária: #004a4e;
+
+    /* cores das faixas dos pesos: */
+    --cor-abaixo-do-peso:  #80FF00; /*magrin*/
+    --cor-peso-normal:  #00FF00; /*normal*/
+    --cor-sobrepeso: #FFFF00; /*gordin*/
+    --cor-obesidade-1: #fF8000; /*gordo*/
+    --cor-obesidade-2: #FF0000; /*gordão*/
+    --cor-obesida2e-3: #800000; /*gordzilla*/   
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;    
+}
+
+body {
+    background-color: var(--cor-primária);
+    padding: 20px
+}
+
+h1 {
+    text-align: center;
+}
+
+section.container {
+    margin:auto;
+    width: 500px;
+    height: 350px;
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.468);
+    border-radius: 10px;
+}
+
+div {
+    padding: 10px;
+}
+
+div#timer {
+    font-size: 4em;
+}
+
+div#buttons {
+
+}
+
+button {
+    padding: 5px;
+    width: 80px;
+}
+
